@@ -1,0 +1,248 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: orange;
+    font-family: futurahandwritten;
+}
+
+.startQuiz {
+    margin: auto;
+}
+
+fieldset {
+    border: none;
+}
+
+.box {
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    line-height: 45px;
+}
+
+h1 span {
+    font-family: calvin and hobbes;
+    font-size: 35px;
+}
+
+.backgroundImg img {
+    width: 100vw;
+    display: block;
+    border: 2px solid black;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.jsTallyBox ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.tally {
+    width: 30%;
+    text-align: left;
+    padding-right: 5px;
+    font-size: 17px;
+}
+
+.startBox {
+    width: 180px;
+    height: 150px;
+    border: 2px solid black;
+    margin-top: 70px;
+    margin-left: 18%;
+    border-radius: 10px;
+    background-color: orange;
+}
+
+#startButton {
+    margin-top: 28%;
+    border: 1px solid black;
+    font-family: calvin and hobbes;
+    font-size: 30px;
+    width: 85px;
+    height: 50px;
+    padding-top: 7px;
+    background-color: #FEFCD6;
+}
+
+#startButton:hover {
+    background-color: rgba(247,244,215,.7);
+}
+
+#submitButton {
+    margin-top: 10%;
+    border: 1px solid black;
+    font-family: calvin and hobbes;
+    font-size: 25px;
+    width: 95px;
+    height: 55px;
+    padding-top: 7px;
+    background-color: rgba(247,244,215,.7);
+}
+
+#submitButton:hover {
+    background-color: orange;
+}
+
+#nextButton {
+    margin-top: 10%;
+    border: 1px solid black;
+    font-family: calvin and hobbes;
+    font-size: 25px;
+    width: 95px;
+    height: 55px;
+    padding-top: 7px;
+    background-color: rgba(247,244,215,.7);
+}
+
+#nextButton:hover {
+    background-color: orange;
+}
+
+#jsDisplayBox {
+    width: 50%;
+    position: absolute;
+    margin-top: 40%;
+    margin-left: 10%;
+}
+
+.innerBox {
+    border: 1.5px solid black;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    background-color: rgba(247,244,215,.7);
+}
+
+.innerBox img {
+    width: 80%;
+    border: none;
+    margin-bottom: 15px;
+}
+
+.wrongBox, .correctBox {
+    text-align: center;
+}
+
+.innerBox legend {
+    text-align: center;
+    line-height: 24px;
+    padding-bottom: 8px;
+}
+
+.innerBox ul {
+    line-height: 30px;
+    list-style-type: radio;
+}
+
+.submit {
+    display: block;
+    margin: auto;
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.button {
+    margin: auto;
+    width: 45%;
+    height: 40px;
+    border-radius: 5px;
+    position: relative;
+    display: block;
+    margin-top: 20%;
+}
+
+.correctBox {
+    background-color: white;
+}
+
+.results {
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 10px;
+    padding-bottom: 30px;
+    background-color: rgba(247,244,215,.7);
+}
+
+.results img {
+    width: 85%;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: -6px;
+}
+
+#tryAgain {
+    margin-top: 8%;
+    border: 1px solid black;
+    font-family: calvin and hobbes;
+    font-size: 25px;
+    width: 95px;
+    height: 80px;
+    padding-top: 7px;
+    border-radius: 4px;
+}
+
+#tryAgain:hover {
+    background-color: orange;
+}
+
+@media screen and (min-width: 600px) {
+    .backgroundImg img {
+        width: 580px;
+        border-radius: 10px;
+    }
+
+    #jsDisplayBox {
+        width: 250px;
+        position: absolute;
+        margin-top: 255px;
+        margin-left: 80px;
+    }
+
+    .tally {
+        text-align: center;
+    }
+
+    .startBox {
+        width: 200px;
+        height: 180px;
+        margin-top: 20px;
+        margin-left: 25px;
+        position: relative;
+    }
+
+    #startButton {
+        margin-top: 65px;
+    }
+
+    .results img {
+        width: 85%;
+        border: 1px solid black;
+        border-radius: 5px;
+        margin-bottom: -6px;
+    }
+
+    .innerBox img {
+        width: 70%;
+        
+    }
+
+    .fail {
+        width: 80%;
+        margin-left: 30px;
+        margin-top: -30px;
+    }
+
+    .box {
+        max-width: 580px;
+    }
+}
+
